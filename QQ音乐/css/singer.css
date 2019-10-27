@@ -1,0 +1,303 @@
+.sprite{
+	background-image: url(https://y.gtimg.cn/mediastyle/yqq/img/icon_sprite.png?max_age=2592000&v=85678e8f28c7b4bcad5c209b21b7e3b3&v=85678e8f28c7b4bcad5c209b21b7e3b3);
+}
+/* 清除默认样式 */
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* 清除浮动 */
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.width{
+	width: 1200px;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.y_logo{
+	width: 170px;
+	height:46px;
+	line-height: 90px;
+	margin-left: -1px;
+	margin-top:25px ;
+	float: left;
+}
+.mod_top_nav{
+	float: left;
+	margin-left:30px ;
+}
+.top_nav_item{
+	height: 90px;
+	float: left;
+}
+.top_nav_item:nth-child(1)>a{
+	color: white;
+}
+.top_nav_item:nth-child(1){
+	background: #00C283;
+}
+.mod_top_nav a{
+	display: block;
+	padding: 0 20px;
+	line-height: 90px;
+	font-size: 18px;
+	color: #000;
+}
+li:hover a{
+color:#00C283 ;
+}
+.search_input__input{
+	width: 174px;
+	height: 36px;
+	font-size:14px;
+	float: left;
+	
+	
+}
+.mod_search_input{
+	position: absolute;
+	top: 0;
+	right: 355px;
+	padding	:0 33px 0 11px;
+	border: solid 1px #c9c9c9;
+	border-radius: 3px;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 26px;
+	margin-left:50px ;
+}
+.search_input__btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0 none;
+	width: 38px;
+	height: 35px;
+	overflow: visible;
+	background: 0 0;
+	line-height:1.5;
+}
+.icon_search{
+	position: absolute;
+	top: 50%;
+	right: 11px;
+	margin-top: -8px;
+	width: 16px;
+	height: 16px;
+	background-position: 0 -40px;
+
+}
+.icon_search:hover{
+	cursor: pointer;
+}
+button{
+	cursor: pointer;
+}
+.top_login{
+	font-size: 16px;
+	color:black;
+	float: left;
+	margin-top: 37px;
+	margin-left: 285px;
+}
+.top_nvzuan{
+padding: 12px 9px;
+background: #00AF75;
+color: white;
+font-size: 13px;
+border: 1px solid #31c27c;
+border-radius: 3px;
+float: left;
+margin-top: -27px;
+margin-left: 330px;
+
+}
+.top_fufei{
+	padding: 12px 9px;
+	border: solid #C9C9C9 1px;
+	border-radius: 3px;
+	font-size: 13px;
+	float: left;
+	margin-top: -39px;
+	margin-left: 452px;
+}
+.mod_top_subnav{
+	height: 51px;
+	border-top:1px solid #f2f2f2;
+	line-height: 51px;
+	padding-left:230px;
+	/* background: #bfa; */
+
+}
+.top_subnav__item a{
+	float: left;
+	font-size: 15px;
+	color : black;
+	margin-right: 47px;
+	}
+	.top_subnav__item::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.top_subnav__item:nth-child(1) a{
+		color : #00AF75;
+	}
+.index_hd{
+	/* width: 1200px; */
+	height: 114px;
+	background: #F2F2F2;
+	text-align: center;
+	
+}
+.index_tit span{
+	display: inline-block;
+	font-size:30px;
+	color: black;
+	/* font-weight: bold; */
+	line-height: 114px;
+	letter-spacing: 13px;
+}
+/* 新歌推荐 */
+.mod_index_tab{
+	height: 50px;
+	width: 608px;
+	/* background: pink; */
+	text-align: center;
+	margin: 0 auto;
+}
+.mod_index_link a{
+	float: left;
+	font-size: 15px;
+	color: black;
+	margin: 0 24px;
+}
+.mod_index_link:nth-child(1) a{
+	color : #00AF75;
+}
+
+
+
+.bj{
+
+    /* position: absolute; */
+    width: 100%;
+    height: 376px;
+    background: url(https://y.gtimg.cn/mediastyle/yqq/img/bg_singer.jpg) 50% 0 repeat-x;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bj h2{
+    font-size: 58px;
+    color: white;
+    width: 494px;
+    height: 60px;
+    margin: 103px auto;
+    line-height: 1;
+}
+.bj a{
+    /* display: inline-block; */
+    font-size: 24px;
+    color: white;
+    height: 24px;
+    padding-top: 150px;
+}
+
+
+.bj div{
+    text-align: center;
+    width: 172px;
+    height : 46px;
+    border: 1px solid white;
+    border-radius:3px ;
+    position: absolute;
+    overflow: hidden;
+    left: 575px;
+    top: 190px;
+}
+.bj div span{
+    display:inline-block;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    
+}
+.mod_singer_tag{
+	width: 1160px;
+	height:172px;
+	padding: 34px 0 17px 40px;
+	margin: 30px 0 20px 0;
+/* 	background: #00C283; */
+	margin: 0 auto;
+}
+
+.mod_singer_tag_zimu{
+	width: 1160px;
+	height:40px;
+	/* padding-bottom: 3px; */
+	/* background: pink; */
+	margin: 0 auto;
+	line-height: 40px;
+}
+.mod_singer_tag a:nth-of-type(1){
+
+width: 28px;
+height: 26px;
+margin:0 28px 14px 0 ;
+padding: 0 14px;
+background:#31c27c;
+
+color: white;
+}
+.mod_singer_tag a{
+    display: inline-block;
+	float: left;
+    padding: 0 8px;
+    margin: 0 12px 14px 0;
+	color: #000;
+	font-size:14px;
+	line-height:26px;
+}
+.singer_list{
+	/*  */
+	height: 530px;
+	padding-right: 20px;
+	padding-bottom: 4px;
+	margin: 0 auto;
+}
+
+.singer_list_box{
+	width: 220px;
+	height: 195px;
+	padding: 25px 0;
+	margin-right:20px;
+	margin-bottom: 20px;
+	/* background: pink; */
+	text-align: center;
+
+}
+.singer_list_box .singer_list_box_img img{
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	margin:0 30px;
+}
+.singer_list_box a{
+	display: inline-block;
+	color: #000000;
+	font-size: 16px;
+	padding-top: 25px;
+}
+.singer_list_txt{
+	margin-right: ;
+	height: 504px;
+}
